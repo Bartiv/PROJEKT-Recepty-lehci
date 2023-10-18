@@ -33,3 +33,100 @@ Nastav je receptům jako obrázky na pozadí (tj. nepřidávej je jako <img> do 
 Na rozložení prvků NEPOUŽÍVEJ absolutní pozicování, ale pouze flexboxy.
 Flexboxy mohou být vnořené do sebe, klidně několikrát.
 */
+
+.hlavni-recept{
+
+	width: 479px;
+	height: 200px;
+	margin: 100px auto;
+	border: 1px solid lightgrey;
+	background-image: url(images/salat.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;	
+	font-size: 14px;
+	font-weight: 400;
+	color: white;
+	margin: 0 450px;
+}
+
+.recept-meta{
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+}
+
+.recept1{
+	width: 479px;
+	height: 200px;
+	margin: 100px auto;
+	border: 1px solid lightgrey;
+	background-image: url(images/chlebicek.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;	
+	font-size: 14px;
+	font-weight: 400;
+	color: white;
+	margin: 0 450px;
+}
+
+.recept2{
+	width: 479px;
+	height: 200px;
+	margin: 100px auto;
+	border: 1px solid lightgrey;
+	background-image: url(images/tacos.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;	
+	font-size: 14px;
+	font-weight: 400;
+	color: white;
+	margin: 0 450px;
+}
+
+
+.recept3{
+	width: 479px;
+	height: 200px;
+	margin: 100px auto;
+	border: 1px solid lightgrey;
+	background-image: url(images/cizrna.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;	
+	font-size: 14px;
+	font-weight: 400;
+	color: white;
+	margin: 0 450px;
+}
+
+.recept4{
+	width: 479px;
+	height: 200px;
+	margin: 100px auto;
+	border: 1px solid lightgrey;
+	background-image: url(images/burger.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;	
+	font-size: 14px;
+	font-weight: 400;
+	color: white;
+	margin: 0 450px;
+}
+
+@media screen and (min-width: 480px) {
+	.doporucujeme{
+		display: flex;
+		flex-wrap: wrap;
+
+	}
+	
+}
+
+.recept{
+	flex: 1 1 50%;
+}
+
